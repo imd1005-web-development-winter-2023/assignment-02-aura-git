@@ -1,3 +1,224 @@
-/*
-  CSS File
-*/
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+button:hover {
+    background-color: #FFC3BB;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.buttons {
+    flex-grow: 0.5;
+}
+
+.search {
+    padding-left: 40px;
+}
+
+.head {
+    padding-top: 110px;
+    padding-bottom: 130px;
+    background-image: url(banner.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: 'Lilita One', cursive;
+}
+
+.arrivals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    padding-top: 40px;
+}
+
+ul.fluff {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    cursor: pointer;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .fluff p  {
+    padding-top: 10px;
+  }
+
+  ul.fluff li {
+    flex: 1;
+    padding: 20px;
+  
+    background-color: rgb(179, 246, 132);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+  }
+  
+  .animals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+
+  .animals h1 {
+    padding-bottom: 40px;
+  }
+
+  .fluff2 {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 15px;
+    text-align: center;
+    cursor: pointer;
+    place-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(179, 246, 132);
+    border-radius: 20px;
+  }
+  .fluff2 img {
+    height: 300px;
+  }
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FFC3BB;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.info img {
+width: 50px;
+}
+
+.infobox {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.social {
+    cursor: pointer;
+}
+
+.picturebox {
+    background-image: url(barebear.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 90%;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    background-color: #B2B1C1;
+    border-radius: 20px;
+    padding-top: 40px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: -10px;
+    align-items: center;
+    padding-right: 130px;
+}
+
+.foot {
+    background-color: rgb(127, 127, 213);
+    padding-top: 50px;
+}
+
+.button1 {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(117, 210, 236);
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+}
+
+.button2 {
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(117, 210, 236);
+    cursor: pointer;
+    border: none;
+}
+
+.head h3 {
+    text-decoration: underline;
+}
+
+.footgrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.form {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.form3 {
+    height: 100px;
+}
+
+.form input {
+    width: 350px;
+}
